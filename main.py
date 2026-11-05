@@ -36,3 +36,9 @@ def main():
 # Start the program.
 if __name__ == "__main__":
     main()
+
+highest_score = max(scores)
+lowest_score = min(scores)
+
+print("Highest Score:", highest_score)
+print("Lowest Score:", lowest_score)

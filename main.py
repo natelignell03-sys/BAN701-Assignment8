@@ -31,8 +31,7 @@ def main():
     print("Games Played:", number_of_games)
     print("Total Points:", sum(scores))
     print("Average Points:", round(average, 2))
-
-
+    print("Highest Score:", max(scores))
 # Start the program.
 if __name__ == "__main__":
     main()

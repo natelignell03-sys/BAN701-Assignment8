@@ -31,6 +31,8 @@ def main():
     print("Games Played:", number_of_games)
     print("Total Points:", sum(scores))
     print("Average Points:", round(average, 2))
+    print("Lowest Score:", min(scores))
+    print("Score Range:", max(scores) - min(scores))
 
 
 # Start the program.
